@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.tbc-logo {
+  width: 50px;
+  height: auto;
+  margin-left: -100px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+  color: #555;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.search input {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.search button img {
+  width: 15px;
+  height: 15px;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.icons a img {
+  width: 30px;
+  height: 30px;
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.icons a img:hover {
+  opacity: 0.7;
+}
+
+.header {
+  font-family: "BPG Nino Mkhedruli Bold", sans-serif;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #444;
+}
+
+.nav ul li a {
+  font-family: "BPG Nino Mkhedruli Bold", sans-serif;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.nav ul li a:hover {
+  color: #555;
+}
+
+
+.contact-section {
+  padding: 20px;
+  font-family: "BPG Nino Mtavruli Bold", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.contact-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.contact-info strong {
+  font-weight: bold;
+}
+
+.contact-info a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  font-family: "BPG Nino Mkhedruli Bold", sans-serif;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #444;
+}
+
+.nav ul li a {
+  font-family: "BPG Nino Mkhedruli Bold", sans-serif;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.nav ul li a:hover {
+  color: #555;
+}
+
+.fb {
+  width: 40px;
+}
+
+.ig {
+  width: 40px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.location {
+  text-align: right;
+  margin-top: -250px;
+  position: relative;
+  left: -45px;
+}
+
+iframe {
+  border: 2px solid #ddd;
+  border-radius: 20px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+
+  .location {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  iframe {
+    width: 70%;
+    height: 250px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    margin-left: -30px;
+  }
+  
+
+  .logo {
+    margin-top: -150px;
+  }
+
+  .search {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    margin-top: -150px;
+  }
+
+  .icons {
+    margin-top: -150px;
+  }
+
+  .search input {
+    margin-bottom: 5px;
+  }
+
+  .location {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  iframe {
+    width: 70%;
+    height: 250px;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  
+  .header {
+    padding: 10px;
+  }
+
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
+    margin-right: -50px;
+  }
+
+  .search input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-info p {
+    font-size: 1rem;
+  }
+
+  .location {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: -90px;
+  }
+
+  iframe {
+    width: 80%;
+    height: 250px;
+  }
+}
+
